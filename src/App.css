@@ -1,0 +1,74 @@
+body {
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -15%);
+}
+
+a {
+  text-decoration: none;
+}
+
+.form {
+  display: flex;
+}
+
+.form-control {
+  width: 196px;
+  height: 84px;
+  margin: 10px;
+  font-size: 19px;
+}
+
+.form-date, .form-distance {
+  width: 190px;
+  height: 52px;
+  margin-top: 10px;
+  border: 3px solid #000;
+  border-radius: 3%
+}
+
+input {
+  font-size: 19px;
+}
+
+.form-button {
+  width: 87px;
+  height: 58px;
+  margin-top: 40px;
+  border: 3px solid #000;
+  border-radius: 3%
+}
+
+.table {
+  width: 561px; 
+  border-collapse: collapse; 
+  font-size: 19px;
+}
+
+.table-columns-titles {
+  display: flex;
+  max-width: 561px; 
+}
+
+th {
+  width: 197px; 
+  padding: 10px; 
+}
+
+.table-body {
+  border: 3px solid #000;
+  border-radius: 5%;
+}
+
+.trainingtablerow {
+  display: block;
+  width: 561px; 
+}
+
+td {
+  width: 197px; 
+  padding: 10px; 
+  text-align: center;
+}
